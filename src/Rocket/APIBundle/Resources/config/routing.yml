@@ -1,0 +1,6 @@
+rocket_api_homepage:
+    path:     /rocket/
+    defaults: { _controller: RocketAPIBundle:Rocket:index }
+rocket_api_get_location:
+    path:     /rocket/getByCode/{code}
+    defaults: { _controller: RocketAPIBundle:Rocket:getByCode }

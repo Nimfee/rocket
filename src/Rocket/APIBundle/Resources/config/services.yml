@@ -1,0 +1,3 @@
+services:
+    rocket.api_manager:
+            class: Rocket\APIBundle\Services\ApiManager

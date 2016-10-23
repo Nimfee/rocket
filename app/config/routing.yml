@@ -1,0 +1,7 @@
+rocket_api:
+    resource: "@RocketAPIBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
